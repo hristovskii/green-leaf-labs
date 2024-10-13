@@ -10,7 +10,7 @@ interface JoinUsProps {
 
 const JoinUsComponent = ({ img, heading, text }: JoinUsProps) => {
   return (
-    <div className="m-4 p-1 block md:flex justify-self-start grid justify-items-center md:my-16">
+    <div className="m-4 p-1 block md:flex justify-self-start justify-items-center md:my-16">
       <Image
         src={img}
         width={120}

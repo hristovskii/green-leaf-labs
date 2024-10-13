@@ -18,7 +18,7 @@ const KeyFeaturesComponent = () => {
       <FeatureComponent
         img={"/images/logos_icons/leaf_plant.svg"}
         heading={"+"}
-        id={20}
+        id={9}
         subheading={"Plants"}
       />
     </div>

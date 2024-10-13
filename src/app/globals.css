@@ -128,7 +128,7 @@ body {
 .desktop-event {
   display: flex;
   width: 500px;
-  height: 300px;
+  height: 350px;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
@@ -244,4 +244,3 @@ body {
   flex: 0 0 100%;
   min-width: 0;
 }
-

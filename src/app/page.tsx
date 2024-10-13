@@ -1,12 +1,11 @@
-import JoinUsSectionComponent from "@/sections/JoinUsSectionComponent";
 import FooterComponent from "@/components/FooterComponent";
-import BoardCompomemnt from "@/sections/BoardCompoment";
 import KeyFeaturesComponent from "@/sections/KeyFeaturesComponent";
 import MemoriesComponent from "@/sections/MemoriesComponent";
 import MissionVisionComponent from "@/sections/MissionVIsionComponent";
 import HeroComponent from "@/sections/HeroComponent";
 import HeaderComponent from "@/components/HeaderComponent";
 import { EmblaCarousel } from "@/sections/EmblaCarousel";
+import WhyMicrogreensComponent from "@/sections/WhyMicrogreensComponent";
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
       <HeroComponent />
       <MissionVisionComponent />
       <KeyFeaturesComponent />
-      <JoinUsSectionComponent />
+      <WhyMicrogreensComponent />
       <MemoriesComponent />
       {/* <BoardCompomemnt /> */}
       {/* <EmblaCarousel /> */}

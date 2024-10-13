@@ -57,10 +57,10 @@ const HeaderComponent = () => {
                 </Link> */}
 
                 <Link
-                  href={"/contact"}
+                  href={"/order"}
                   className="text-eestec hover:bg-eestec hover:text-white rounded-lg p-2"
                 >
-                  Contact
+                  Order
                 </Link>
                 {/* <Link
                   href={"/login"}
@@ -144,10 +144,10 @@ const HeaderComponent = () => {
               </Link> */}
 
               <Link
-                href={"/contact"}
+                href={"/order"}
                 className="text-eestec block hover:bg-eestec hover:text-white rounded-lg p-2"
               >
-                Contact
+                Order
               </Link>
 
               {/* <Link

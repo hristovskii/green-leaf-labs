@@ -15,11 +15,10 @@ const products = () => {
     (product: {
       img: string;
       title: string;
-      info: string;
       link: string;
       tag: string;
       price: string;
-      energy: string;
+      v_m: string;
       protein: string;
       fat: string;
       carbs: string;
@@ -89,7 +88,7 @@ const products = () => {
                 img: string;
                 title: string;
                 price: string;
-                energy: string;
+                v_m: string;
                 protein: string;
                 fat: string;
                 carbs: string;
@@ -104,7 +103,7 @@ const products = () => {
                   img={product.img}
                   title={product.title}
                   price={product.price}
-                  energy={product.energy}
+                  v_m={product.v_m}
                   protein={product.protein}
                   fat={product.fat}
                   carbs={product.carbs}

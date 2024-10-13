@@ -19,13 +19,13 @@ const FooterComponent = () => {
             mediaLink={"https://www.instagram.com/green_leaff_lab/"}
             icon={FaInstagram}
             text={"Instagram"}
-            size={"4rem"}
+            size={"6rem"}
           />
           <SocialMediaComponent
             mediaLink={""}
             icon={FaSquareFacebook}
             text={"Facebook"}
-            size={"4rem"}
+            size={"6rem"}
           />
         </div>
       </nav>
@@ -37,6 +37,9 @@ const FooterComponent = () => {
           height={100}
           className=" m-2"
         />
+        <div>
+        <h1 className="text-white center text-3xl font-serif">Green Leaf labs</h1>
+        </div>
         {/* <div>
           <h6 className="text-center text-white">
             <strong>E</strong>lectrical <strong>E</strong>ngineering{" "}
