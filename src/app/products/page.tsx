@@ -3,15 +3,13 @@ import { Key, useState } from "react";
 import HeaderComponent from "@/components/HeaderComponent";
 import SkeletonComponent from "@/components/SkeletonComponent";
 import productsData from "./products.json";
-const products = () => {
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [searchTerm, setSearchTerm] = useState("");
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [selectedTag, setSelectedTag] = useState("all");
-  // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [productList, setproductList] = useState(productsData);
 
-  const filteredproducts = productList.filter(
+const Products = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+  const [selectedTag, setSelectedTag] = useState("all");
+  const [productList, setProductList] = useState(productsData);
+
+  const filteredProducts = productList.filter(
     (product: {
       img: string;
       title: string;
@@ -82,7 +80,7 @@ const products = () => {
         </div>
 
         <div className="lg:flex gap-20 justify-center my-[4rem] flex-wrap">
-          {filteredproducts.map(
+          {filteredProducts.map(
             (
               product: {
                 img: string;
@@ -120,4 +118,4 @@ const products = () => {
   );
 };
 
-export default products;
+export default Products;
