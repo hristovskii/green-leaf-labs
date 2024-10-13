@@ -3,6 +3,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import Link from "next/link";
+import Img from "@/images/logos_icons/leaf_transparent.svg"
 
 const HeaderComponent = () => {
   const [isClick, setisClick] = useState(false);
@@ -20,7 +21,7 @@ const HeaderComponent = () => {
               <div className="flex-shrink-0">
                 <a href="/" className="text-white">
                   <Image
-                    src={"/images/logos_icons/leaf_transparent.svg"}
+                    src={Img}
                     alt={""}
                     width={70}
                     height={1}

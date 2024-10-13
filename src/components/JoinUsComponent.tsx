@@ -20,7 +20,7 @@ const JoinUsComponent = ({ img, heading, text }: JoinUsProps) => {
       />
       <div className="font-eestec">
         <h3 className="text-xl font-bold md:text-4xl text-eestec">{heading}</h3>
-        <p className="text-black text-justify md:text-2xl sm:w-[35rem] w-[17.5rem]">
+        <p className="text-black text-justify md:text-2xl sm:w-[37rem] w-[20.5rem]">
           {text}
         </p>
       </div>

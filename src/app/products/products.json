@@ -1,6 +1,6 @@
 [
   {
-    "img": "/images/events-showcase/plant1.jpg",
+    "img": "src/images/plants/plant1.jpg",
     "title": "Lorem Ipsum1",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -13,7 +13,7 @@
     "tag": "in_stock"
   },
   {
-    "img": "/images/events-showcase/plant2.jpg",
+    "img": "src/images/plants/plant2.jpg",
     "title": "Lorem Ipsum2",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -26,7 +26,7 @@
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/events-showcase/plant3.jpg",
+    "img": "src/images/plants/plant3.jpg",
     "title": "Lorem Ipsum3",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -39,7 +39,7 @@
     "tag": "in_stock"
   },
   {
-    "img": "/images/events-showcase/plant4.jpg",
+    "img": "src/images/plants/plant4.jpg",
     "title": "Lorem Ipsum4",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -52,7 +52,7 @@
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/events-showcase/plant5.jpg",
+    "img": "src/images/plants/plant5.jpg",
     "title": "Lorem Ipsum5",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -65,7 +65,7 @@
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/events-showcase/plant6.jpg",
+    "img": "src/images/plants/plant6.jpg",
     "title": "Lorem Ipsum6",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -78,7 +78,7 @@
     "tag": "in_stock"
   },
   {
-    "img": "/images/events-showcase/plant7.jpg",
+    "img": "src/images/plants/plant7.jpg",
     "title": "Lorem Ipsum7",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -91,7 +91,7 @@
     "tag": "in_stock"
   },
   {
-    "img": "/images/events-showcase/plant8.jpg",
+    "img": "src/images/plants/plant8.jpg",
     "title": "Lorem Ipsum8",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -104,7 +104,7 @@
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/events-showcase/plant9.jpg",
+    "img": "src/images/plants/plant9.jpg",
     "title": "Lorem Ipsum9",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -117,7 +117,7 @@
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/events-showcase/plant10.jpg",
+    "img": "src/images/plants/plant10.jpg",
     "title": "Lorem Ipsum10",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",

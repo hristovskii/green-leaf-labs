@@ -1,12 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import {
-  FaDiscord,
-  FaInstagram,
-  FaSquareFacebook,
-  FaXTwitter,
-} from "react-icons/fa6";
+import { FaInstagram, FaSquareFacebook } from "react-icons/fa6";
+import Img from "@/images/logos_icons/leaf_transparent_white.svg"
 
 import SocialMediaComponent from "./SocialMediaComponent";
 
@@ -31,14 +27,16 @@ const FooterComponent = () => {
       </nav>
       <article className="grid justify-items-center text-center m-3 my-5">
         <Image
-          src={"/images/logos_icons/leaf_transparent_white.svg"}
+          src={Img}
           alt="Feature Image"
           width={150}
           height={100}
           className=" m-2"
         />
         <div>
-        <h1 className="text-white center text-3xl font-serif">Green Leaf labs</h1>
+          <h1 className="text-white center text-3xl font-serif">
+            Green Leaf labs
+          </h1>
         </div>
         {/* <div>
           <h6 className="text-center text-white">

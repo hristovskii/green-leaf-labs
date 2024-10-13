@@ -1,14 +1,13 @@
 "use client";
-
-import Image from "next/image";
 import Typewriter from 'typewriter-effect'; 
+import Img from "@/images/slika_rastenija.jpg"
 
 const HeroComponent = () => {
   return (
     <div
       className="w-full p-10"
       style={{
-        backgroundImage: `linear-gradient(0deg, #1b5c04 0%, rgba(38, 38, 38, 0.1) 70%), url(/slika_rastenija.jpg)`,
+        backgroundImage: `linear-gradient(0deg, #1b5c04 0%, rgba(38, 38, 38, 0.1) 70%), url(${Img.src})`,
         backgroundPosition: `center`,
         backgroundSize: `cover`,
         backgroundRepeat: `no-repeat`,
