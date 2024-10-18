@@ -1,6 +1,6 @@
 [
   {
-    "img": "/images/plants/plant1.jpg",
+    "img": "/images/plants/test.svg",
     "title": "Lorem Ipsum1",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -13,7 +13,7 @@
     "tag": "in_stock"
   },
   {
-    "img": "/images/plants/plant2.jpg",
+    "img": "/images/plants/test.png",
     "title": "Lorem Ipsum2",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
