@@ -10,19 +10,7 @@ const Products = () => {
   const [productList, setProductList] = useState(productsData);
 
   const filteredProducts = productList.filter(
-    (product: {
-      img: string;
-      title: string;
-      link: string;
-      tag: string;
-      price: string;
-      v_m: string;
-      protein: string;
-      fat: string;
-      carbs: string;
-      sugars: string;
-      fiber: string;
-    }) =>
+    (product) =>
       (selectedTag === "all" || product.tag === selectedTag) &&
       product.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
@@ -80,38 +68,22 @@ const Products = () => {
         </div>
 
         <div className="lg:flex gap-20 justify-center my-[4rem] flex-wrap">
-          {filteredProducts.map(
-            (
-              product: {
-                img: string;
-                title: string;
-                price: string;
-                v_m: string;
-                protein: string;
-                fat: string;
-                carbs: string;
-                sugars: string;
-                fiber: string;
-                link: string;
-              },
-              index: Key | null | undefined
-            ) => (
-              <div key={index} className="product-card">
-                <SkeletonComponent
-                  img={product.img}
-                  title={product.title}
-                  price={product.price}
-                  v_m={product.v_m}
-                  protein={product.protein}
-                  fat={product.fat}
-                  carbs={product.carbs}
-                  sugars={product.sugars}
-                  fiber={product.fiber}
-                  link={product.link}
-                />
-              </div>
-            )
-          )}
+          {filteredProducts.map((product, index) => (
+            <div key={index} className="product-card">
+              <SkeletonComponent
+                img={product.img}
+                title={product.title}
+                price={product.price}
+                v_m={product.v_m}
+                protein={product.protein}
+                fat={product.fat}
+                carbs={product.carbs}
+                sugars={product.sugars}
+                fiber={product.fiber}
+                link={product.link}
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
