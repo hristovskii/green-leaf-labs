@@ -2,12 +2,143 @@
 import { Key, useState } from "react";
 import HeaderComponent from "@/components/HeaderComponent";
 import SkeletonComponent from "@/components/SkeletonComponent";
-import productsData from "./products.json";
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState("all");
-  const [productList, setProductList] = useState(productsData);
+
+  const productList = [
+    {
+      "img": "/images/plants/plant1.jpg",
+      "title": "Lorem Ipsum1",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://lht.eestec.mk/",
+      "tag": "in_stock"
+    },
+    {
+      "img": "/images/plants/plant2.jpg",
+      "title": "Lorem Ipsum2",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://academy.eestec.mk/",
+      "tag": "out_of_stock"
+    },
+    {
+      "img": "/images/plants/plant3.jpg",
+      "title": "Lorem Ipsum3",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://www.instagram.com/ssa_skopje/",
+      "tag": "in_stock"
+    },
+    {
+      "img": "/images/plants/plant4.jpg",
+      "title": "Lorem Ipsum4",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://www.instagram.com/eestech_challenge_lc_skopje/",
+      "tag": "out_of_stock"
+    },
+    {
+      "img": "/images/plants/plant5.jpg",
+      "title": "Lorem Ipsum5",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://calu.eestec.mk/",
+      "tag": "out_of_stock"
+    },
+    {
+      "img": "/images/plants/plant6.jpg",
+      "title": "Lorem Ipsum6",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://www.instagram.com/b2b_skopje/",
+      "tag": "in_stock"
+    },
+    {
+      "img": "/images/plants/plant7.jpg",
+      "title": "Lorem Ipsum7",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://www.instagram.com/b2b_skopje/",
+      "tag": "in_stock"
+    },
+    {
+      "img": "/images/plants/plant8.jpg",
+      "title": "Lorem Ipsum8",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://www.instagram.com/b2b_skopje/",
+      "tag": "out_of_stock"
+    },
+    {
+      "img": "/images/plants/plant9.jpg",
+      "title": "Lorem Ipsum9",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://www.instagram.com/b2b_skopje/",
+      "tag": "out_of_stock"
+    },
+    {
+      "img": "/images/plants/plant10.jpg",
+      "title": "Lorem Ipsum10",
+      "price": "300 den. / plate",
+      "protein": "2.20 gr.",
+      "fat": "0.12 gr.",
+      "carbs": "4.33 gr.",
+      "sugars": "0.5 gr.",
+      "fiber": "3.7 gr.",
+      "v_m": "C, D, E, B",
+      "link": "https://www.instagram.com/b2b_skopje/",
+      "tag": "in_stock"
+    }
+  ]
 
   const filteredProducts = productList.filter(
     (product) =>
