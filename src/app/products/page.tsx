@@ -18,7 +18,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://lht.eestec.mk/",
       "tag": "in_stock"
     },
     {
@@ -31,7 +30,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://academy.eestec.mk/",
       "tag": "out_of_stock"
     },
     {
@@ -44,7 +42,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://www.instagram.com/ssa_skopje/",
       "tag": "in_stock"
     },
     {
@@ -57,7 +54,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://www.instagram.com/eestech_challenge_lc_skopje/",
       "tag": "out_of_stock"
     },
     {
@@ -70,7 +66,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://calu.eestec.mk/",
       "tag": "out_of_stock"
     },
     {
@@ -83,7 +78,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://www.instagram.com/b2b_skopje/",
       "tag": "in_stock"
     },
     {
@@ -96,7 +90,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://www.instagram.com/b2b_skopje/",
       "tag": "in_stock"
     },
     {
@@ -109,7 +102,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://www.instagram.com/b2b_skopje/",
       "tag": "out_of_stock"
     },
     {
@@ -122,7 +114,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://www.instagram.com/b2b_skopje/",
       "tag": "out_of_stock"
     },
     {
@@ -135,7 +126,6 @@ const Products = () => {
       "sugars": "0.5 gr.",
       "fiber": "3.7 gr.",
       "v_m": "C, D, E, B",
-      "link": "https://www.instagram.com/b2b_skopje/",
       "tag": "in_stock"
     }
   ]
