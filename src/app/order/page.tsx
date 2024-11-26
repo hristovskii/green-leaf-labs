@@ -14,7 +14,6 @@ interface Product {
   sugars: string;
   fiber: string;
   v_m: string;
-  link: string;
   tag: string;
 }
 

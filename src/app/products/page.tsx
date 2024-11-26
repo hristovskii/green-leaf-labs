@@ -2,121 +2,12 @@
 import { Key, useState } from "react";
 import HeaderComponent from "@/components/HeaderComponent";
 import SkeletonComponent from "@/components/SkeletonComponent";
+import productData from "./products.json";
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState("all");
-
-  const productList = [
-    {
-      img: "https://i.imgur.com/T2D1mPn.jpeg",
-      title: "Lorem Ipsum1",
-      price: "300 den. / plate",
-      protein: "2.20 gr.",
-      fat: "0.12 gr.",
-      carbs: "4.33 gr.",
-      sugars: "0.5 gr.",
-      fiber: "3.7 gr.",
-      v_m: "C, D, E, B",
-      tag: "in_stock",
-    },
-    {
-      img: "/images/plants/plant2.jpg",
-      title: "Lorem Ipsum2",
-      price: "300 den. / plate",
-      protein: "2.20 gr.",
-      fat: "0.12 gr.",
-      carbs: "4.33 gr.",
-      sugars: "0.5 gr.",
-      fiber: "3.7 gr.",
-      v_m: "C, D, E, B",
-      tag: "out_of_stock",
-    },
-    {
-      img: "/images/plants/plant3.jpg",
-      title: "Lorem Ipsum3",
-      price: "300 den. / plate",
-      protein: "2.20 gr.",
-      fat: "0.12 gr.",
-      carbs: "4.33 gr.",
-      sugars: "0.5 gr.",
-      fiber: "3.7 gr.",
-      v_m: "C, D, E, B",
-      tag: "in_stock",
-    },
-    {
-      img: "/images/plants/plant4.jpg",
-      title: "Lorem Ipsum4",
-      price: "300 den. / plate",
-      protein: "2.20 gr.",
-      fat: "0.12 gr.",
-      carbs: "4.33 gr.",
-      sugars: "0.5 gr.",
-      fiber: "3.7 gr.",
-      v_m: "C, D, E, B",
-      tag: "out_of_stock",
-    },
-    {
-      img: "/images/plants/plant5.jpg",
-      title: "Lorem Ipsum5",
-      price: "300 den. / plate",
-      protein: "2.20 gr.",
-      fat: "0.12 gr.",
-      carbs: "4.33 gr.",
-      sugars: "0.5 gr.",
-      fiber: "3.7 gr.",
-      v_m: "C, D, E, B",
-      tag: "out_of_stock",
-    },
-    {
-      img: "/images/plants/plant6.jpg",
-      title: "Lorem Ipsum6",
-      price: "300 den. / plate",
-      protein: "2.20 gr.",
-      fat: "0.12 gr.",
-      carbs: "4.33 gr.",
-      sugars: "0.5 gr.",
-      fiber: "3.7 gr.",
-      v_m: "C, D, E, B",
-      tag: "in_stock",
-    },
-    {
-      img: "/images/plants/plant7.jpg",
-      title: "Lorem Ipsum7",
-      price: "300 den. / plate",
-      protein: "2.20 gr.",
-      fat: "0.12 gr.",
-      carbs: "4.33 gr.",
-      sugars: "0.5 gr.",
-      fiber: "3.7 gr.",
-      v_m: "C, D, E, B",
-      tag: "in_stock",
-    },
-    {
-      img: "/images/plants/plant8.jpg",
-      title: "Lorem Ipsum8",
-      price: "300 den. / plate",
-      protein: "2.20 gr.",
-      fat: "0.12 gr.",
-      carbs: "4.33 gr.",
-      sugars: "0.5 gr.",
-      fiber: "3.7 gr.",
-      v_m: "C, D, E, B",
-      tag: "out_of_stock",
-    },
-    {
-      img: "/images/plants/plant9.jpg",
-      title: "Lorem Ipsum9",
-      price: "300 den. / plate",
-      protein: "2.20 gr.",
-      fat: "0.12 gr.",
-      carbs: "4.33 gr.",
-      sugars: "0.5 gr.",
-      fiber: "3.7 gr.",
-      v_m: "C, D, E, B",
-      tag: "out_of_stock",
-    }
-  ];
+  const [productList, setProductList] = useState(productData);
 
   const filteredProducts = productList.filter(
     (product) =>
