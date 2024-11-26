@@ -1,18 +1,18 @@
 "use client";
-import { Key, useState } from "react";
+import {useState } from "react";
 import HeaderComponent from "@/components/HeaderComponent";
 import SkeletonComponent from "@/components/SkeletonComponent";
-import protuctData from "./products.json";
+import protuctsData from "./products.json";
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState("all");
-  const [productList, setProductList] = useState(protuctData);
+  const [productList, setProductList] = useState(protuctsData);
 
   const filteredProducts = productList.filter(
-    (product) =>
-      (selectedTag === "all" || product.tag === selectedTag) &&
-      product.title.toLowerCase().includes(searchTerm.toLowerCase())
+    (plant) =>
+      (selectedTag === "all" || plant.tag === selectedTag) &&
+    plant.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -68,18 +68,18 @@ const Products = () => {
         </div>
 
         <div className="lg:flex gap-20 justify-center my-[4rem] flex-wrap">
-          {filteredProducts.map((product, index) => (
+          {filteredProducts.map((plant, index) => (
             <div key={index} className="product-card">
               <SkeletonComponent
-                img={product.img}
-                title={product.title}
-                price={product.price}
-                v_m={product.v_m}
-                protein={product.protein}
-                fat={product.fat}
-                carbs={product.carbs}
-                sugars={product.sugars}
-                fiber={product.fiber}
+                img={plant.img}
+                title={plant.title}
+                price={plant.price}
+                v_m={plant.v_m}
+                protein={plant.protein}
+                fat={plant.fat}
+                carbs={plant.carbs}
+                sugars={plant.sugars}
+                fiber={plant.fiber}
               />
             </div>
           ))}
