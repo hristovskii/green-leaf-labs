@@ -17,7 +17,7 @@ const HeroComponent = () => {
       <div className="container ">
         <h3
           className="font-eestec text-white lg:text-6xl md:text-5xl sm:text-4xl text-3xl uppercase font-black"
-          style={{ paddingTop: "37rem;" }}
+          style={{ paddingTop: "37rem" }}
         >
           Small Greens, Big Nutrition - <br />
           <Typewriter

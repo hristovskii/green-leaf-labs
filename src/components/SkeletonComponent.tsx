@@ -13,7 +13,6 @@ interface EventProps {
   carbs: string;
   sugars: string;
   fiber: string;
-  link: string;
 }
 
 const SkeletonComponent = ({
@@ -26,7 +25,6 @@ const SkeletonComponent = ({
   carbs,
   sugars,
   fiber,
-  link,
 }: EventProps) => {
   return (
     <div className="skeleton-card desktop-event">
@@ -71,14 +69,11 @@ const SkeletonComponent = ({
               {fiber}
             </p>
             <p className="text-sm" style={{ margin: "0 0 16px 0" }}>
-              <span className="font-bold">Vitamins & Minerals: </span>
+              <span className="font-bold">Vitamins & Minerals: </span> <br />
               {v_m}
             </p>
           </div>
         </div>
-        {/* <Link className="link-event mt-5" href={link} target="_blank">
-          Read More
-        </Link> */}
       </div>
     </div>
   );
