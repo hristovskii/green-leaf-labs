@@ -1,5 +1,3 @@
-"use client";
-
 import Image, { StaticImageData } from "next/image";
 
 interface MemoriesProps {
@@ -16,7 +14,7 @@ const MemoriesImagesComponent = ({ img, text }: MemoriesProps) => {
       height={500}
       width={500}
       className="mt-8 mb-8 zoom"
-      />
+    />
   );
 };
 export default MemoriesImagesComponent;

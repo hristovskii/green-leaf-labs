@@ -1,6 +1,6 @@
 import React from "react";
-import Img from "@/images/logos_icons/flag_icon.svg"
-import Img2 from "@/images/logos_icons/bulb.svg"
+import Img from "@/images/logos_icons/flag_icon.svg";
+import Img2 from "@/images/logos_icons/bulb.svg";
 import MissionComponent from "../components/MissionComponent";
 
 const MissionVisionComponent = () => {

@@ -1,6 +1,6 @@
 "use client";
-import Typewriter from 'typewriter-effect'; 
-import Img from "@/images/slika_rastenija.jpg"
+import Typewriter from "typewriter-effect";
+import Img from "@/images/slika_rastenija.jpg";
 
 const HeroComponent = () => {
   return (
@@ -13,29 +13,30 @@ const HeroComponent = () => {
         backgroundRepeat: `no-repeat`,
         height: "50rem",
       }}
-    > 
+    >
       <div className="container ">
-        <h3 className="font-eestec text-white lg:text-6xl md:text-5xl sm:text-4xl text-3xl uppercase font-black"
-        style={{"paddingTop": "37rem;"}}>
-          Small Greens, Big Nutrition - <br /> 
-        
-        <Typewriter 
-        onInit={(typewriter) => { 
-          typewriter.typeString('Power Up Your Plate Today!') 
-            .callFunction(() => { 
-              console.log('String typed out!'); 
-            }) 
-            .pauseFor(2500) 
-            .deleteAll() 
-            .callFunction(() => { 
-              console.log('All strings were deleted'); 
-            }) 
-            .start(); 
-        }}
-        options={{ loop: true }} 
-      /> 
-      </h3>
-        
+        <h3
+          className="font-eestec text-white lg:text-6xl md:text-5xl sm:text-4xl text-3xl uppercase font-black"
+          style={{ paddingTop: "37rem;" }}
+        >
+          Small Greens, Big Nutrition - <br />
+          <Typewriter
+            onInit={(typewriter) => {
+              typewriter
+                .typeString("Power Up Your Plate Today!")
+                .callFunction(() => {
+                  console.log("String typed out!");
+                })
+                .pauseFor(2500)
+                .deleteAll()
+                .callFunction(() => {
+                  console.log("All strings were deleted");
+                })
+                .start();
+            }}
+            options={{ loop: true }}
+          />
+        </h3>
       </div>
     </div>
   );

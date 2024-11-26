@@ -1,23 +1,18 @@
-"use client";
-
 import Image from "next/image";
 import JoinUsComponent from "../components/JoinUsComponent";
 import SubheadingComponent from "@/components/SubheadingComponent";
 
-import Img1 from "@/images/logos_icons/red_line.svg"
-import Img2 from "@/images/logos_icons/healthy.svg"
-import Img3 from "@/images/logos_icons/fresh_delivery.svg"
-import Img4 from "@/images/logos_icons/weight_goals.svg"
-import Img5 from "@/images/microgreens.jpg"
+import Img1 from "@/images/logos_icons/red_line.svg";
+import Img2 from "@/images/logos_icons/healthy.svg";
+import Img3 from "@/images/logos_icons/fresh_delivery.svg";
+import Img4 from "@/images/logos_icons/weight_goals.svg";
+import Img5 from "@/images/microgreens.jpg";
 
 const WhyMicrogreensComponent = () => {
   return (
     <div className="lg:flex grid justify-center gap-20">
       <div className="m-2 justify-items-center">
-        <SubheadingComponent
-          text="Why micro greens?"
-          img={Img1}
-        />
+        <SubheadingComponent text="Why micro greens?" img={Img1} />
         <JoinUsComponent
           img={Img2}
           heading={"Boost Your Health with Every Bite!"}

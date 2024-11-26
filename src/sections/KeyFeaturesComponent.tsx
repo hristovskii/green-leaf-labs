@@ -1,7 +1,7 @@
 import FeatureComponent from "../components/FeatureComponent";
-import Img from "@/images/logos_icons/students.svg"
-import Img2 from "@/images/logos_icons/delivery.svg" 
-import Img3 from "@/images/logos_icons/leaf_plant.svg"
+import Img from "@/images/logos_icons/students.svg";
+import Img2 from "@/images/logos_icons/delivery.svg";
+import Img3 from "@/images/logos_icons/leaf_plant.svg";
 
 const KeyFeaturesComponent = () => {
   return (
@@ -12,18 +12,13 @@ const KeyFeaturesComponent = () => {
         id={600}
         subheading={"customers"}
       />
-       <FeatureComponent
+      <FeatureComponent
         img={Img2}
         heading={"+"}
         id={120}
         subheading={"Deliveries"}
       />
-      <FeatureComponent
-        img={Img3}
-        heading={"+"}
-        id={9}
-        subheading={"Plants"}
-      />
+      <FeatureComponent img={Img3} heading={"+"} id={9} subheading={"Plants"} />
     </div>
   );
 };
