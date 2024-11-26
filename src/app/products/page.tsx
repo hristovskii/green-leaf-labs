@@ -1,5 +1,5 @@
 "use client";
-import { Key, useState } from "react";
+import { useState } from "react";
 import HeaderComponent from "@/components/HeaderComponent";
 import SkeletonComponent from "@/components/SkeletonComponent";
 import productData from "./products.json"
@@ -69,7 +69,7 @@ const Products = () => {
         </div>
 
         <div className="lg:flex gap-20 justify-center my-[4rem] flex-wrap">
-          {filteredProducts.map((product, index) => (
+          {filteredProducts.map((product: { img: string; title: string; price: string; protein: string; fat: string; carbs: string; sugars: string; fiber: string; v_m: string; tag: string; }, index: number) => (
             <div key={index} className="product-card">
               <SkeletonComponent
                 img={product.img}
