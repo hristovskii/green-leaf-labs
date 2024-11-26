@@ -2,13 +2,15 @@
 import { Key, useState } from "react";
 import HeaderComponent from "@/components/HeaderComponent";
 import SkeletonComponent from "@/components/SkeletonComponent";
-import productData from "./products.json";
+import productData from "./products.json"
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState("all");
 
-  const filteredProducts = productData.filter(
+  const productList = productData;
+
+  const filteredProducts = productList.filter(
     (product) =>
       (selectedTag === "all" || product.tag === selectedTag) &&
       product.title.toLowerCase().includes(searchTerm.toLowerCase())
