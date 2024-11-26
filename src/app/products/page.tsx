@@ -1,18 +1,139 @@
 "use client";
-import {useState } from "react";
+import { Key, useState } from "react";
 import HeaderComponent from "@/components/HeaderComponent";
 import SkeletonComponent from "@/components/SkeletonComponent";
-import protuctsData from "./products.json";
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState("all");
-  const [productList, setProductList] = useState(protuctsData);
+
+  const productList = [
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum1",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "in_stock",
+    },
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum2",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "out_of_stock",
+    },
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum3",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "in_stock",
+    },
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum4",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "out_of_stock",
+    },
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum5",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "out_of_stock",
+    },
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum6",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "in_stock",
+    },
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum7",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "in_stock",
+    },
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum8",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "out_of_stock",
+    },
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum9",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "out_of_stock",
+    },
+    {
+      img: "https://i.imgur.com/T2D1mPn.jpeg",
+      title: "Lorem Ipsum10",
+      price: "300 den. / plate",
+      protein: "2.20 gr.",
+      fat: "0.12 gr.",
+      carbs: "4.33 gr.",
+      sugars: "0.5 gr.",
+      fiber: "3.7 gr.",
+      v_m: "C, D, E, B",
+      tag: "in_stock",
+    },
+  ];
 
   const filteredProducts = productList.filter(
-    (plant) =>
-      (selectedTag === "all" || plant.tag === selectedTag) &&
-    plant.title.toLowerCase().includes(searchTerm.toLowerCase())
+    (product) =>
+      (selectedTag === "all" || product.tag === selectedTag) &&
+      product.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -68,18 +189,18 @@ const Products = () => {
         </div>
 
         <div className="lg:flex gap-20 justify-center my-[4rem] flex-wrap">
-          {filteredProducts.map((plant, index) => (
+          {filteredProducts.map((product, index) => (
             <div key={index} className="product-card">
               <SkeletonComponent
-                img={plant.img}
-                title={plant.title}
-                price={plant.price}
-                v_m={plant.v_m}
-                protein={plant.protein}
-                fat={plant.fat}
-                carbs={plant.carbs}
-                sugars={plant.sugars}
-                fiber={plant.fiber}
+                img={product.img}
+                title={product.title}
+                price={product.price}
+                v_m={product.v_m}
+                protein={product.protein}
+                fat={product.fat}
+                carbs={product.carbs}
+                sugars={product.sugars}
+                fiber={product.fiber}
               />
             </div>
           ))}
