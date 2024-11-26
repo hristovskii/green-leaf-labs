@@ -211,7 +211,6 @@ const Products = () => {
                 carbs={product.carbs}
                 sugars={product.sugars}
                 fiber={product.fiber}
-                link={product.link}
               />
             </div>
           ))}
