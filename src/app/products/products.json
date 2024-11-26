@@ -1,6 +1,6 @@
 [
   {
-    "img": "https://imgur.com/rhfzZLy",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum123",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -9,11 +9,10 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://lht.eestec.mk/",
     "tag": "in_stock"
   },
   {
-    "img": "https://imgur.com/nhwbL15",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum2",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -22,11 +21,10 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://academy.eestec.mk/",
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/plants/plant3.jpg",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum3",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -35,11 +33,10 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://www.instagram.com/ssa_skopje/",
     "tag": "in_stock"
   },
   {
-    "img": "/images/plants/plant4.jpg",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum4",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -48,11 +45,10 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://www.instagram.com/eestech_challenge_lc_skopje/",
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/plants/plant5.jpg",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum5",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -61,11 +57,10 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://calu.eestec.mk/",
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/plants/plant6.jpg",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum6",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -74,11 +69,10 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://www.instagram.com/b2b_skopje/",
     "tag": "in_stock"
   },
   {
-    "img": "/images/plants/plant7.jpg",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum7",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -87,11 +81,10 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://www.instagram.com/b2b_skopje/",
     "tag": "in_stock"
   },
   {
-    "img": "/images/plants/plant8.jpg",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum8",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -100,11 +93,10 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://www.instagram.com/b2b_skopje/",
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/plants/plant9.jpg",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum9",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -113,11 +105,10 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://www.instagram.com/b2b_skopje/",
     "tag": "out_of_stock"
   },
   {
-    "img": "/images/plants/plant10.jpg",
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
     "title": "Lorem Ipsum10",
     "price": "300 den. / plate",
     "protein": "2.20 gr.",
@@ -126,7 +117,126 @@
     "sugars": "0.5 gr.",
     "fiber": "3.7 gr.",
     "v_m": "C, D, E, B",
-    "link": "https://www.instagram.com/b2b_skopje/",
+    "tag": "in_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum123",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
+    "tag": "in_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum2",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
+    "tag": "out_of_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum3",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
+    "tag": "in_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum4",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
+    "tag": "out_of_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum5",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
+    "tag": "out_of_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum6",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
+    "tag": "in_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum7",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
+    "tag": "in_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum8",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
+    "tag": "out_of_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum9",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
+    "tag": "out_of_stock"
+  },
+  {
+    "img": "https://i.imgur.com/T2D1mPn.jpeg" ,
+    "title": "Lorem Ipsum10",
+    "price": "300 den. / plate",
+    "protein": "2.20 gr.",
+    "fat": "0.12 gr.",
+    "carbs": "4.33 gr.",
+    "sugars": "0.5 gr.",
+    "fiber": "3.7 gr.",
+    "v_m": "C, D, E, B",
     "tag": "in_stock"
   }
 ]
