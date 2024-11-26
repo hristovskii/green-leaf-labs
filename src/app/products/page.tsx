@@ -1,14 +1,13 @@
 "use client";
-import { useState } from "react";
+import { Key, useState } from "react";
 import HeaderComponent from "@/components/HeaderComponent";
 import SkeletonComponent from "@/components/SkeletonComponent";
-import productData from "./products.json"
+import protuctData from "./products.json";
 
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState("all");
-
-  const productList = productData;
+  const [productList, setProductList] = useState(protuctData);
 
   const filteredProducts = productList.filter(
     (product) =>
@@ -69,7 +68,7 @@ const Products = () => {
         </div>
 
         <div className="lg:flex gap-20 justify-center my-[4rem] flex-wrap">
-          {filteredProducts.map((product: { img: string; title: string; price: string; protein: string; fat: string; carbs: string; sugars: string; fiber: string; v_m: string; tag: string; }, index: number) => (
+          {filteredProducts.map((product, index) => (
             <div key={index} className="product-card">
               <SkeletonComponent
                 img={product.img}
