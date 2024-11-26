@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Img1 from "@/images/memories/photo1.jpg";
 import Img2 from "@/images/memories/photo2.jpg";
 import Img3 from "@/images/memories/photo3.jpg";

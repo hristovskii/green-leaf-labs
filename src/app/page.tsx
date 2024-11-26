@@ -4,7 +4,6 @@ import MemoriesComponent from "@/sections/MemoriesComponent";
 import MissionVisionComponent from "@/sections/MissionVIsionComponent";
 import HeroComponent from "@/sections/HeroComponent";
 import HeaderComponent from "@/components/HeaderComponent";
-import { EmblaCarousel } from "@/sections/EmblaCarousel";
 import WhyMicrogreensComponent from "@/sections/WhyMicrogreensComponent";
 
 export default function Home() {
@@ -16,8 +15,6 @@ export default function Home() {
       <KeyFeaturesComponent />
       <WhyMicrogreensComponent />
       <MemoriesComponent />
-      {/* <BoardCompomemnt /> */}
-      {/* <EmblaCarousel /> */}
       <FooterComponent />
     </div>
   );
