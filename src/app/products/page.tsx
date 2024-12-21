@@ -76,10 +76,9 @@ const Products = () => {
                 price={product.price}
                 v_m={product.v_m}
                 protein={product.protein}
-                fat={product.fat}
                 carbs={product.carbs}
-                sugars={product.sugars}
                 fiber={product.fiber}
+                taste={product.taste}
               />
             </div>
           ))}

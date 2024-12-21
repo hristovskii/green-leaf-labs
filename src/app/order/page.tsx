@@ -9,9 +9,7 @@ interface Product {
   title: string;
   price: string;
   protein: string;
-  fat: string;
   carbs: string;
-  sugars: string;
   fiber: string;
   v_m: string;
   tag: string;

@@ -8,10 +8,9 @@ interface EventProps {
   price: string;
   v_m: string;
   protein: string;
-  fat: string;
   carbs: string;
-  sugars: string;
   fiber: string;
+  taste: string;
 }
 
 const SkeletonComponent = ({
@@ -20,10 +19,9 @@ const SkeletonComponent = ({
   price,
   v_m,
   protein,
-  fat,
   carbs,
-  sugars,
   fiber,
+  taste,
 }: EventProps) => {
   return (
     <div className="skeleton-card desktop-event">
@@ -52,16 +50,8 @@ const SkeletonComponent = ({
               {protein}
             </p>
             <p className="text-sm" style={{ margin: "0 0 16px 0" }}>
-              <span className="font-bold">Fat: </span>
-              {fat}
-            </p>
-            <p className="text-sm" style={{ margin: "0 0 16px 0" }}>
               <span className="font-bold">Carbs: </span>
               {carbs}
-            </p>
-            <p className="text-sm" style={{ margin: "0 0 16px 0" }}>
-              <span className="font-bold">Sugars: </span>
-              {sugars}
             </p>
             <p className="text-sm" style={{ margin: "0 0 16px 0" }}>
               <span className="font-bold">Fiber: </span>
@@ -70,6 +60,10 @@ const SkeletonComponent = ({
             <p className="text-sm" style={{ margin: "0 0 16px 0" }}>
               <span className="font-bold">Vitamins & Minerals: </span> <br />
               {v_m}
+            </p>
+            <p className="text-sm" style={{ margin: "0 0 16px 0" }}>
+              <span className="font-bold">Taste: </span> <br />
+              {taste}
             </p>
           </div>
         </div>
