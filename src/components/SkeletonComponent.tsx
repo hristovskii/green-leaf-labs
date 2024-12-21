@@ -25,7 +25,7 @@ const SkeletonComponent = ({
 }: EventProps) => {
   return (
     <div className="skeleton-card desktop-event">
-      <div style={{ flex: "1 1 60%", background: "#eee" }}>
+      <div style={{ flex: "1 1 100%", background: "#eee" }}>
         <Image
           src={img}
           alt={"Event"}
@@ -36,14 +36,10 @@ const SkeletonComponent = ({
       </div>
       <div className="text-event">
         <div>
-          <h2 className="font-bold text-2xl" style={{ margin: "0 0 8px 0" }}>
+          <h2 className="font-bold text-2xl" style={{ margin: "0 0 px 0" }}>
             {title}
           </h2>
           <div className="md:text-left">
-            <p className="text-sm" style={{ margin: "0 0 16px 0" }}>
-              <span className="font-bold">Price: </span>
-              {price}
-            </p>
 
             <p className="text-sm" style={{ margin: "0 0 16px 0" }}>
               <span className="font-bold">Protein: </span>
