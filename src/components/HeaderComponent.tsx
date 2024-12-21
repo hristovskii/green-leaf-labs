@@ -19,9 +19,7 @@ const HeaderComponent = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <a href="/" className="text-white">
                   <Image src={Img} alt={""} width={70} height={1} />
-                </a>
               </div>
             </div>
             <div>
